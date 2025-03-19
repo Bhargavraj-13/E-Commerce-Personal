@@ -1,2 +1,13 @@
 # E-Commerce-Personal
-I am undertaking this project to enhance my proficiency in the MERN stack.
+
+
+### Milestone 1
+
+    - Created a repositary and a README.md file
+
+### Milestone 2
+
+    - Create a structured frontend (React) and backend (Node.js + Express) folder setup.
+    - Configure Tailwind CSS for styling.
+    - Implement a Login Page (frontend UI).
+    - Push the updated code to GitHub and update README.
