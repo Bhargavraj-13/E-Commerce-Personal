@@ -7,7 +7,16 @@
 
 ### Milestone 2
 
-    - Create a structured frontend (React) and backend (Node.js + Express) folder setup.
-    - Configure Tailwind CSS for styling.
-    - Implement a Login Page (frontend UI).
-    - Push the updated code to GitHub and update README.
+    - Created a structured frontend (React) and backend (Node.js + Express) folder setup.
+    - Configured Tailwind CSS for styling.
+    - Implemented a Login Page (frontend UI).
+    - Pushed the updated code to GitHub and update README.
+
+### Milestone 3
+    
+
+    - Organized backend folders (routes, controllers, models, middleware).
+    - Set up a Node.js server using Express.
+    - Connected the backend to MongoDB.
+    - Implemented basic error handling.
+    - Pushed updates to GitHub and document progress in README.
