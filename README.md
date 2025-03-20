@@ -20,3 +20,11 @@
     - Connected the backend to MongoDB.
     - Implemented basic error handling.
     - Pushed updates to GitHub and document progress in README.
+
+### Milestone 4
+
+    User Model, Controllers & File Uploads
+    - Created a User Model (MongoDB Schema).
+    - Developed a User Controller to manage user operations.
+    - Set up Multer for handling file uploads (e.g., profile pictures).
+    - Pushed changes to GitHub and update README.

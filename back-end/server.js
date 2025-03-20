@@ -1,6 +1,7 @@
 const express = require('express')
-const mongoose = require('mongoose')
-const errorHandler = require('./middleware/errorHandler')
+const mongoose = require('mongoose');
+const errorHandler = require('../back-end/middleware/errorHandler');
+
 
 require('dotenv').config();
 const app = express();
@@ -32,3 +33,21 @@ app.listen(PORT,(req,res)=>{
     console.log(`Server is running on http://localhost:${PORT}`);
 })
 
+/*
+models - user.js
+middleware - authmiddleware && multer
+controllers - userController.js
+routes - userRoutes.js
+server.js
+dotenv
+
+Step 1: Install Dependencies = done
+Step 2: Define the User Model = there's a big fuck up here
+Step 3: Set Up Authentication Middleware
+Step 4: Set Up Multer for File Uploads
+Step 5: Create User Controller Functions
+Step 6: Create Routes for Users
+Step 7: Update the Server
+Step 8: Store Secret Keys in .env
+Step 9: Start the Backend and Test APIStep 9: Start the Backend and Test API
+*/
