@@ -30,3 +30,9 @@
     - Pushed changes to GitHub and update README.
 
 ### Milestone 5
+
+    Sign-Up Page & Form Validation
+    - Built a Sign-Up Page (Frontend UI with fields: Name, Email, Password).
+    - Implemented form validation (email format, password strength).
+    - Pushed the final version to GitHub and document in README.
+
