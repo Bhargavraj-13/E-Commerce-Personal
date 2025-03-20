@@ -1,6 +1,8 @@
 const express = require('express')
 const mongoose = require('mongoose');
 const errorHandler = require('../back-end/middleware/errorHandler');
+const userRoutes = require('..back-end/routes/userRoutes');
+const path = require('path');
 
 
 require('dotenv').config();
@@ -24,6 +26,9 @@ const connectDB = async(req,res)=>{
 }
 
 connectDB();
+
+app.use('/uploads',express.static(path.join(__dirname,"uploads")));
+app.use('/api/users', userRoutes);
 
 app.get('/',(req,res)=>{
     res.send('Hello, Fools')
