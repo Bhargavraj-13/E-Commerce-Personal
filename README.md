@@ -3,10 +3,12 @@
 
 ### Milestone 1
 
+    Beginning of the project.
     - Created a repositary and a README.md file
 
 ### Milestone 2
 
+    Finished setting up Front-End and created a login Front-End.
     - Created a structured frontend (React) and backend (Node.js + Express) folder setup.
     - Configured Tailwind CSS for styling.
     - Implemented a Login Page (frontend UI).
@@ -14,7 +16,7 @@
 
 ### Milestone 3
     
-
+    Finished setiing up Back-End.
     - Organized backend folders (routes, controllers, models, middleware).
     - Set up a Node.js server using Express.
     - Connected the backend to MongoDB.
@@ -35,4 +37,14 @@
     - Built a Sign-Up Page (Frontend UI with fields: Name, Email, Password).
     - Implemented form validation (email format, password strength).
     - Pushed the final version to GitHub and document in README.
+
+### Milestone 6
+
+    Secure User Signup
+    - Encrypted passwords using bcrypt before storing them.
+    - Stored complete user data (name, email, password, etc.) securely in MongoDB.
+    - Created a signup API endpoint that accepts user details and stores them after hashing.
+    - Validated user inputs before saving (e.g., required fields, email format).
+    - Tested the endpoint using an API client (Thunder Client).
+    - Pushed code to GitHub & update README.
 

@@ -21,7 +21,7 @@ const SignUp = () => {
         if(!validatePassword(password)) return setError("Password Length must be greater than 6!");
 
     try{
-        const res = await fetch("http://localhost:3000/api/users/register", {
+        const res = await fetch("http://localhost:3000/api/users/signUp", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name, email, password }),

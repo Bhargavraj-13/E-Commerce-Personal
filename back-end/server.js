@@ -1,5 +1,6 @@
-const express = require('express')
+const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const errorHandler = require('../back-end/middleware/errorHandler');
 const userRoutes = require('..back-end/routes/userRoutes');
 const path = require('path');
@@ -12,7 +13,7 @@ const db_url = process.env.db_url;
 
 app.use(express.json())
 app.use(errorHandler)
-// app.use(cors())
+app.use(cors())
 
 const connectDB = async(req,res)=>{
     try{
@@ -37,22 +38,3 @@ app.get('/',(req,res)=>{
 app.listen(PORT,(req,res)=>{
     console.log(`Server is running on http://localhost:${PORT}`);
 })
-
-/*
-models - user.js
-middleware - authmiddleware && multer
-controllers - userController.js
-routes - userRoutes.js
-server.js
-dotenv
-
-Step 1: Install Dependencies = done
-Step 2: Define the User Model = there's a big fuck up here
-Step 3: Set Up Authentication Middleware
-Step 4: Set Up Multer for File Uploads
-Step 5: Create User Controller Functions
-Step 6: Create Routes for Users
-Step 7: Update the Server
-Step 8: Store Secret Keys in .env
-Step 9: Start the Backend and Test APIStep 9: Start the Backend and Test API
-*/
