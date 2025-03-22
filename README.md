@@ -57,3 +57,13 @@
     - Returned authentication success or failure response.
     - Handled errors gracefully (e.g., incorrect password, user not found).
     - Pushed code to GitHub & update README.
+
+### Milestone 8
+
+    Product Card Component:
+    - Design a reusable ProductCard component that displays product details.
+    - Use props to pass product information (name, image, price, etc.).
+    - Fetch product data from a static JSON file (or mock data for now).
+    - Use array mapping (map()) to render multiple product cards dynamically.
+    - Style using CSS or Tailwind for a clean and structured look.
+    - Push code to GitHub & update README.
