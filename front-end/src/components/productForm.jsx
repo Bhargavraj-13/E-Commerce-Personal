@@ -25,6 +25,9 @@ const ProductForm = () => {
       alert("Please fill in all required fields.");
       return;
     }
+    if(product.price <= 0) {
+        alert("please Enter valid price, fool");
+    }
     console.log("Product submitted:", product);
     alert("Product added successfully!");
     setProduct({ name: "", description: "", price: "", images: [] });
