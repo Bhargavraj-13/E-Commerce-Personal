@@ -67,3 +67,14 @@
     - Used array mapping (map()) to render multiple product cards dynamically.
     - Styled using CSS for a clean and structured look.
     - Pushed code to GitHub & updated README.
+
+### Milestone 9
+
+    Product Input Form.
+    - Created a product submission form with fields for name, description, price, and images.
+    - Allowed multiple image uploads (use file input or URLs).
+    - Validated inputs before submission (e.g., required fields, price must be a number).
+    - Used React state to manage form inputs and handle submission.
+    - styled it using css.
+    - Displayed a confirmation message upon successful submission.
+    - Pushed code to GitHub & update README.
