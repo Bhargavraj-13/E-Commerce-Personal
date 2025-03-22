@@ -1,0 +1,13 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .product-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
