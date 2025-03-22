@@ -61,9 +61,9 @@
 ### Milestone 8
 
     Product Card Component:
-    - Design a reusable ProductCard component that displays product details.
-    - Use props to pass product information (name, image, price, etc.).
-    - Fetch product data from a static JSON file (or mock data for now).
-    - Use array mapping (map()) to render multiple product cards dynamically.
-    - Style using CSS or Tailwind for a clean and structured look.
-    - Push code to GitHub & update README.
+    - Designed a reusable ProductCard component that displays product details.
+    - Used props to pass product information (name, image, price, etc.).
+    - Fetched product data from a static JSON file (mock data for now).
+    - Used array mapping (map()) to render multiple product cards dynamically.
+    - Styled using CSS for a clean and structured look.
+    - Pushed code to GitHub & updated README.
