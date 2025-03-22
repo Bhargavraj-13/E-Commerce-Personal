@@ -48,3 +48,12 @@
     - Tested the endpoint using an API client (Thunder Client).
     - Pushed code to GitHub & update README.
 
+### Milestone 7
+
+    User Login Authentication
+    - Created a login API endpoint that accepts email & password.
+    - Fetched user details from MongoDB based on the provided email.
+    - Compared the hashed password using bcrypt.
+    - Returned authentication success or failure response.
+    - Handled errors gracefully (e.g., incorrect password, user not found).
+    - Pushed code to GitHub & update README.
